@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <h2>Add A New Item</h2>
+        <table class="table">
+            <tr>
+                <td> 
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" class="name" placeholder="votre nom !" >
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="date">Date :</label>
+                    <input type="date" id="date" class="date">
+                </td>
+                <td> 
+                    <label for="amount">Amount :</label>
+                    <input type="text" id="amount" class="amount" placeholder="votre prix !" >
+                </td>
+            </tr>      
+        </table>
+        <button class="button">Add Expense</button>
+        <table class="change">
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+
+    </div>
 </body>
 </html>
